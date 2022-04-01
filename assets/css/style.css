@@ -1,0 +1,443 @@
+/*
+Theme Name: XBOX Game Series
+Author: Aghogho Etibo
+Author URI: etiboaghogho@gmail.com
+Description: The official theme of XBOX Game Series
+Version: 1.0
+*/
+
+@charset "utf-8";
+/* CSS Document */
+.box {
+	height: 390px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: " ";
+}
+.clearfix:after {
+	clear: both;
+}
+a, a:hover {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+body {
+	background: #fff;
+	overflow-x: hidden;
+	font-family: 'RobotoReg';
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+html {
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+#main_wrapper {
+	width: auto;
+	height: auto;
+	position: relative;
+}
+:root {
+	--primary-brand: #7EB903;
+
+	--brand-orange: #EF4F22;
+	--brand-yellow: #FBB604;
+	--brand-blue: #03A4EE;
+	--text-grey: #292929;
+
+
+	--white: #ffffff;
+	--black: #000;
+}
+
+.section {
+	width: 100%;
+	height: auto;
+	padding: 60px 10%;
+	position: relative;
+}
+.section.ext {
+	padding: 12vh 10%;
+}
+.no-pad {
+	padding: 0;
+}
+.inner-wrap {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+}
+.section.no-lft-rght-pad {
+	padding-left: 0;
+	padding-right: 0;
+}
+.mid-sec {
+	width: 70%;
+	margin: 0 auto;
+}
+.light-sec {
+	background-color: #f4f4f4;
+}
+.grey-sec {
+	background-color: var(--grey-bg);
+}
+
+
+/* MAIN PAGE*/
+.pg-wrap {
+	width: 100%;
+	height: 100vh;
+	padding: 3vh 0;
+	overflow: hidden;
+	position: relative;
+	background-color: var(--white);
+	z-index: 1;
+}
+
+.bg-lines {
+	width: 80%;
+	height: 80vh;
+	position: absolute;
+	background: linear-gradient(to right, #f6f6f6 1px, transparent 1px);
+    background-size: 150px;
+	top: 10vh;
+	left: 10%;
+	z-index: -2;
+}
+
+/* HEADER */
+.header {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.header .hdr {
+	width: 100%;
+	height: 70px;
+	position: relative;
+	display: block;
+}
+.header .hdr .logo {
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.header .hdr .logo img {
+	width: auto;
+	height: 30px;
+}
+.header .hdr .logo img.mob {
+	display: none;
+}
+
+.header .hdr .menu-wrap {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+}
+
+.header .hdr .menu-wrap .search a {
+	color: var(--primary-brand);
+}
+
+.header .hdr .menu-wrap .burger-icon {
+	width: 22px;
+	height: 16px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 20px;
+}
+.header .hdr .menu-wrap .burger-icon .bbar-top, 
+.header .hdr .menu-wrap .burger-icon .bbar-mid, 
+.header .hdr .menu-wrap .burger-icon .bbar-bot {	
+	height: 3px;
+	border-radius: 20%;
+	background: var(--primary-brand);
+	position: absolute;
+}
+.header .hdr .menu-wrap .burger-icon .bbar-top {
+	width: 70%;
+	top: 0;
+	right: 0;
+}
+.header .hdr .menu-wrap .burger-icon .bbar-mid {
+	width: 100%;
+	top: 50%;
+	opacity: 1;
+	margin-top: -1.6px;
+}
+.header .hdr .menu-wrap .burger-icon .bbar-bot {
+	width: 70%;
+	bottom: 0;
+	left: 0;
+}
+
+/*CONTENT*/
+.product-name {
+	width: 40%;
+	position: absolute;
+	top: 25vh;
+	left: 10%;
+}
+.product-name .gen-name {
+	font-size: 1.5rem;
+	font-family: 'MR';
+	margin-bottom: 4vh;
+}
+.product-name .spec-name {
+	height: 4.5rem;
+	font-size: 3.5rem;
+	font-family: 'MB';
+	color: var(--primary-brand);
+	position: relative;
+	overflow: hidden;
+}
+.product-name .spec-name .inner-spec {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+.product-img {
+	width: 60%;
+	position: absolute;
+	right: 8%;
+	top: 19vh;
+}
+.product-img .prod .letter {
+	width: 70%;
+	height: 84vh;
+	transform: rotate(165deg);
+	position: absolute;
+	top: -10vh;
+	left: 0;
+}
+.product-img .prod .letter .text {
+	width: 28px;
+	height: 28px;
+	display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	font-size: 19px;
+	font-family: 'MBL';
+	color: var(--white);
+	z-index: 4;
+}
+.product-img .prod .letter .text:first-child {
+	top: 20%;
+	right: -5%;
+	transform: rotate(10deg);
+	background-color: var(--brand-orange);
+}
+.product-img .prod .letter .text:nth-child(2) {
+	top: 20%;
+	left: -7%;
+	transform: rotate(320.45deg);
+	background-color: var(--brand-yellow);
+}
+.product-img .prod .letter .text:last-child {
+	bottom: -6%;
+	left: 50%;
+	transform: rotate(28.23deg);
+	background-color: var(--brand-blue);
+}
+.product-img .prod {
+	display: inline-block;
+	vertical-align: middle;
+}
+.product-img .prod:first-child {
+	width: 80%;
+}
+.product-img .prod:last-child {
+	width: 18%;
+	position: relative;
+	z-index: 4;
+}
+.product-img .prod:last-child:hover {
+	cursor: pointer;
+}
+.product-img .prod:first-child .prod-photo img {
+	width: auto;
+	height: 55vh;
+	position: relative;
+	z-index: 3;
+}
+.product-img .prod:last-child .prod-photo img {
+	width: auto;
+	height: 18vh;
+	margin-bottom: -1vh;
+}
+.product-img .prod .title {
+	width: 50%;
+	font-size: 0.9rem;
+	font-family: 'MB';
+	text-align: center;
+	margin-top: 2vh;
+	text-transform: uppercase;
+	color: var(--primary-brand);
+	transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+}
+.product-img .prod .title .feat-x,
+.product-img .prod .title .feat-s {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*
+.product-img .prod .triangle {
+	width: 0;
+    height: 0;
+    border: 390px solid transparent;
+    border-top: 0;
+    border-bottom: 630px solid #8BD80A;
+    transform: matrix(-0.71, 0.61, -0.71, -0.71, 0, 0);
+    position: absolute;
+    z-index: -1;
+    top: 3vh;
+    left: 10%;
+}
+*/
+.product-img .prod .triangle {
+	width: 760px;
+    height: 580px;
+	background: linear-gradient(154.17deg, #C4C4C4 13.67%, #3D3C3C 68.79%);
+    transform: matrix(-0.71, 0.61, -0.71, -0.71, 0, 0);
+	clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    position: absolute;
+    z-index: 2;
+    top: 4vh;
+    left: 4%;
+}
+
+.product-specs {
+	width: 50%;
+	z-index: 3;
+	position: absolute;
+	top: 47vh;
+	left: 10%;
+}
+.product-specs .details {
+	width: 23%;
+	position: absolute;
+}
+.product-specs .details:nth-child(2) {
+	left: 13%;
+}
+.product-specs .details:nth-child(3) {
+	left: 28%;
+}
+.product-specs .details .spec {
+	font-size: 1rem;
+	font-family: 'MB';
+	text-align: center;
+	position: relative;
+}
+.product-specs .details .spec.feat-x,
+.product-specs .details .spec.feat-s {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.product-specs .details .spec span {
+	font-size: 1.5rem;
+}
+.product-specs .details:first-child .spec span {
+	color: var(--brand-orange);
+}
+.product-specs .details:nth-child(2) .spec span {
+	color: var(--brand-blue);
+}
+.product-specs .details:last-child .spec span {
+	color: var(--brand-yellow);
+}
+.product-specs .details .name {
+	font-size: 0.6rem;
+	font-family: 'MR';
+	text-align: center;
+}
+
+.product-price {
+	position: absolute;
+	top: 70vh;
+	left: 10%;
+}
+.product-price .price {
+	width: 100%;
+	height: 2rem;
+	font-size: 1.85rem;
+	font-family: 'MB';
+	overflow: hidden;
+	color: var(--text-grey);
+	position: relative;
+}
+.product-price .price .inner1 {
+	height: 10.8vh;
+	position: absolute;
+	bottom: 0;
+}
+.product-price .price .inner1 .value:first-child {
+	margin-bottom: 1.5vh;
+}
+.product-price .price .inner2 {
+	position: absolute;
+	top: 0;
+	left: 21%;
+}
+.product-price .price span {
+	margin-right: 4px;
+}
+.cta {
+	margin-top: 10vh;
+}
+.cta a {
+	width: auto;
+	padding: 15px 40px;
+	font-size: 0.8rem;
+	font-family: 'MB';
+	letter-spacing: 0.8px;
+	background-color: var(--primary-brand);
+	text-transform: capitalize;
+	color: var(--white);
+}
+.cta a.mob {
+	display: none;
+}
+.g-text {
+	color: var(--black);
+}
+
+.feat-x {
+	display: none;
+	opacity: 0;
+}

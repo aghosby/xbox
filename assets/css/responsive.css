@@ -1,0 +1,243 @@
+@media (min-width:320px) and (max-width:480px) {
+	/* PRESET CSS */
+	
+	.section {
+		width: 100%;
+		height: auto;
+		padding: 40px 5%;
+		position: relative;
+	}
+	.section.no-pad {
+		padding: 0px;
+	}
+	.mid_sec {
+		width: 100%;
+	}
+	.section.ext {
+		padding: 50px 5%;
+	}
+
+
+    /* HEADER */
+
+	.header .hdr {
+		height: 70px;
+	}
+	.header .hdr .logo {
+		left: 10%;
+	}
+	.header .hdr .logo img {
+		width: auto;
+		height: 30px;
+	}
+	.header .hdr .logo img.desk {
+		display: none;
+	}
+	.header .hdr .logo img.mob {
+		display: block;
+	}
+	
+	.header .hdr .menu-wrap {
+		right: 10%;
+	}
+	
+	.header .hdr .menu-wrap .search {
+		display: none;
+	}
+	.header .hdr .menu-wrap .burger-icon {
+		height: 19px;
+	}
+	.header .hdr .menu-wrap .burger-icon .bbar-top, 
+	.header .hdr .menu-wrap .burger-icon .bbar-mid, 
+	.header .hdr .menu-wrap .burger-icon .bbar-bot {	
+		height: 4px;
+	}
+
+	/*CONTENT*/
+	.product-name {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin-top: 1.5vh;
+		left: 0;
+		top: 0;
+	}
+	.product-name .gen-name {
+		font-size: 1.1rem;
+		font-family: 'MB';
+		margin-bottom: 1vh;
+	}
+	.product-name .spec-name {
+		width: 100%;
+		height: 3.3rem;
+		font-size: 2.3rem;
+		text-align: center;
+		font-family: 'MBl';
+	}
+	.product-name .spec-name .inner-spec {
+		transform: translateX(-50%);
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+	}
+	.product-name .spec-name .inner-spec .brand:first-child {
+		transform: translate(-100%, 100px);
+		opacity: 0;
+	}
+
+	.product-img {
+		width: 100%;
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	.product-img .prod .letter {
+		display: none;
+	}
+	.product-img .prod {
+		display: block;
+	}
+	.product-img .prod:first-child {
+		width: 100%;
+		margin-top: 5vh;
+	}
+	.product-img .prod:last-child {
+		width: 100%;
+		position: relative;
+		transform: translateX(-50%);
+		margin-top: 4vh;
+		left: 50%;
+		z-index: 4;
+	}
+	.product-img .prod:first-child .prod-photo {
+		text-align: center;
+	}
+	.product-img .prod:first-child .prod-photo img {
+		width: auto;
+		height: 32vh;
+		position: relative;
+		z-index: 3;
+	}
+	.product-img .prod:last-child .prod-photo img {
+		position: absolute;
+		transform: translate(-120%, -200%);
+	}
+	.product-img .prod .title {
+		font-size: 1rem;
+		margin-top: 2vh;
+		left: 50%;
+	}
+	.product-img .prod .title .feat-x,
+	.product-img .prod .title .feat-s {
+		transform: translateX(-50%);
+		position: absolute;
+		left: 50%;
+		top: 0;
+	}
+	.product-img .prod .triangle {
+		width: 360px;
+		height: 280px;
+		z-index: 2;
+		top: 6vh;
+		left: 15%;
+	}
+	.product-specs {
+		width: 100%;
+		z-index: 3;
+		position: relative;
+		transform: translateX(-50%);
+		margin-top: 10vh;
+		top: 0;
+		left: 62%;
+	}
+	.product-specs .details {
+		width: 33%;
+		position: absolute;
+	}
+	.product-specs .details:nth-child(2) {
+		left: 25%;
+	}
+	.product-specs .details:nth-child(3) {
+		left: 55%;
+	}
+	.product-specs .details .spec {
+		font-size: 1.2rem;
+		font-family: 'MB';
+		text-align: center;
+		position: relative;
+	}
+	.product-specs .details .spec.feat-x,
+	.product-specs .details .spec.feat-s {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.product-specs .details .spec span {
+		font-size: 1.2rem;
+	}
+	.product-specs .details:first-child .spec span {
+		color: var(--brand-orange);
+	}
+	.product-specs .details:nth-child(2) .spec span {
+		color: var(--brand-blue);
+	}
+	.product-specs .details:last-child .spec span {
+		color: var(--brand-yellow);
+	}
+	.product-specs .details .name {
+		font-size: 0.6rem;
+		font-family: 'MR';
+		text-align: center;
+	}
+	
+	.product-price {
+		width: 100%;
+		position: relative;
+		margin-top: 10vh;
+		top: 0;
+		left: 0;
+	}
+	.product-price .price {
+		width: 100%;
+		height: 2rem;
+		font-size: 1.85rem;
+		justify-content: center;
+		text-align: center;
+		font-family: 'MB';
+		overflow: hidden;
+		display: flex;
+	}
+	.product-price .price .inner1 {
+		height: auto;
+		position: relative;
+		top: -152%;
+	}
+	.product-price .price .inner1 .value:first-child {
+		margin-bottom: 1.5vh;
+	}
+	.product-price .price .inner2 {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.product-price .price span {
+		margin-right: 4px;
+	}
+	.cta {
+		margin-top: 3vh;
+		display: flex;
+		justify-content: center;
+	}
+	.cta a {
+		width: auto;
+		padding: 15px 40px;
+		font-size: 0.8rem;
+	}
+	.cta a.desk {
+		display: none;
+	}
+	.cta a.mob {
+		display: block;
+	}
+
+}

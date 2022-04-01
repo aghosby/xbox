@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'MT';
+	src: url('../fonts/Montserrat-Thin.otf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MBL';
+	src: url('../fonts/Montserrat-Black.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MB';
+	src: url('../fonts/Montserrat-Bold.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MEB';
+	src: url('../fonts/Montserrat-ExtraBold.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MM';
+	src: url('../fonts/Montserrat-Medium.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MR';
+	src: url('../fonts/Montserrat-Regular.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ML';
+	src: url('../fonts/Montserrat-Light.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MSB';
+	src: url('../fonts/Montserrat-SemiBold.ttf');
+	src: url(//:) format('no404'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'PNR';
+	src: url('../fonts/Proxima-Nova-Regular.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNB';
+	src: url('../fonts/Proxima-Nova-Bold.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Bold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNE';
+	src: url('../fonts/Proxima-Nova-Extrabold.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Extrabold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNBl';
+	src: url('../fonts/Proxima-Nova-Black.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Black.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNAT';
+	src: url('../fonts/Proxima-Nova-Alt-Thin.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Alt-Thin.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNAL';
+	src: url('../fonts/Proxima-Nova-Alt-Light.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Alt-Light.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PNAB';
+	src: url('../fonts/Proxima-Nova-Alt-Bold.otf');
+	src: url(//:) format('no404'), url('../fonts/Proxima-Nova-Alt-Bold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'PGT';
+	src: url('../fonts/Post-Grotesk-Thin.ttf');
+	src: url(//:) format('no404'), url('../fonts/Post-Grotesk-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGR';
+	src: url('../fonts/Post-Grotesk.ttf');
+	src: url(//:) format('no404'), url('../fonts/Post-Grotesk.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGB';
+	src: url('../fonts/Post-Grotesk-Bold.ttf');
+	src: url(//:) format('no404'), url('../fonts/Post-Grotesk-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PGBL';
+	src: url('../fonts/Post-Grotesk-Black.ttf');
+	src: url(//:) format('no404'), url('../fonts/Post-Grotesk-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
